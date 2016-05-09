@@ -1,0 +1,317 @@
+/*
+Theme Name: pioneer
+Author: shan biswas
+Description: This is a test theme
+Version: 1.0
+
+Use the theme to make something cool, have fun, and share what you've learned with others.
+*/
+
+body{
+    background-color: #414141;
+}
+
+.header{
+    background: #1a1a1a;
+    color: #fff;
+}
+
+.header_logo{
+    position: absolute;
+    right: 30px;
+}
+
+.logoImg{
+    height: 55px;
+    width: 55px;
+}
+
+.footer{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #1a1a1a;
+    color: #fff;
+    margin-top: 250px;
+}
+
+.right-panel{
+    min-height: 600px;
+    color: #343434;
+}
+
+.navbar{
+    margin-bottom: 0;
+    min-height: 62px;
+    border-radius: 0;
+}
+
+.navbar-nav > li > a:hover,
+.current-menu-item a{
+    color: #1a1a1a !important;
+    background-color: #eee;
+}
+
+.navbar-brand{
+    color: #fff;
+}
+
+.menu-item a{
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.post-list{
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sidebar-content-header{
+    color: #b2c006;
+    border-bottom: 4px solid #b2c006;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    margin: 0 0 10px 10px;
+    padding: 10px 0 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.sidebar-ul{
+    padding: 0;
+}
+
+.sidebar-ul li{
+    /*border-left: 2px solid;*/
+    list-style: outside none none;
+    margin: 0 0 6px;
+    /*padding-left: 10px;*/
+}
+
+.sidebar-ul li a{
+    color: #1a1a1a;
+}
+
+.sidebar-ul li a:hover{
+    color: #b2c006;
+}
+
+.front-page-post-wrapper{
+    max-width: 600px;
+    background-color: #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.icon-bar{
+    background: #fff;
+}
+
+.site-header-image-container{
+    position: relative;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.site-logo{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.site-logo a{
+    color: #fff;
+}
+
+.site-description{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #fff;
+}
+
+.navbar-nav{
+    margin: 13px 0 0;
+}
+
+.navbar-nav > li > a{
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.custom_background{
+    background-color: #fff;
+}
+
+.homepage_about_section{
+    border-bottom: 1px dotted #1a1a1a;
+    margin-bottom: 30px;
+}
+
+.homepage_contact_section{
+    border-right: 1px dotted #1a1a1a;
+}
+
+.container{
+    max-width: 960px;
+}
+
+.parent-cat-name{
+    border-bottom: 3px solid #8c8a89;
+    color: #0f295a;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 4px 0 10px;
+    padding: 4px 0 8px;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.sub-cat-name{
+    border-bottom: 3px solid #8c8a89;
+    color: #0f295a;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+    margin: 4px 0 10px;
+    padding: 4px 0 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 40%;
+}
+
+.sub-cat-name a{
+    color: #0f295a;
+}
+
+.title {
+    color: #333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 5px 0 15px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.title a{
+    color: #333;
+    text-decoration: none;
+}
+
+.title a:hover{
+    color: #809300;
+}
+
+.post-thumb,
+.single-page-thumbnail{
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.post-link{
+    margin-bottom: 15px;
+}
+
+.sub-category-wrapper{
+    float: left;
+    width: 100%;
+}
+
+.enquiry-form-wrapper{
+    max-width: 350px;
+    height: auto;
+    margin: 20px auto 30px;
+}
+
+.enquiry-form-title{
+    border-bottom: 1px solid black;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px 0 0;
+    position: relative;
+    text-align: left;
+    width: 90%;
+    color: #898a79;
+}
+
+.wpcf7-form-control{
+    border: 1px solid #7f9db9;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 6px;
+    padding-left: 3px;
+    text-align: left;
+    width: 100%;
+}
+
+.wpcf7-submit{
+    width: auto;
+}
+
+.wpcf7-textarea{
+    height: 100px;
+}
+
+.enquiry{
+    background-color: #0f295a;
+    border: medium none;
+    color: #ffffff;
+    cursor: pointer;
+    font: bold 14px Arial,Helvetica,sans-serif;
+    height: 40px;
+    padding: 5px;
+    width: 90px;
+}
+
+.enquiry:hover{
+    text-decoration: none;
+    color: #0f295a;
+    border: 1px solid #0f295a;
+    background-color: #fff;
+}
+
+.page h1,
+.page h2 {
+    margin: 0;
+}
+
+@media (max-width: 768px)
+{
+    .right-panel{
+        min-height: 200px;
+    }
+    
+    .sub-cat-name{
+        width: 100%;
+    }
+    
+    .footer{
+        margin-top: 100px;
+    }
+    
+    .sidebar-ul li{
+        margin-left: 10px;
+    }
+    
+    .front-page-meta{
+        display: block;
+    }
+    
+    .navbar-toggle{
+        float: left;
+    }
+    
+    .homepage_contact_section{
+        border-bottom: none;
+    }
+}

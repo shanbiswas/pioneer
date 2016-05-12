@@ -32,13 +32,21 @@
                     <div>
                         <?php
                             if ( has_post_thumbnail() ) {
-                                the_post_thumbnail('thumbnail', array(
+                                the_post_thumbnail('medium', array(
                                                                         'class' => 'single-page-thumbnail'
                                                                     ));
+                            }
+                            else
+                            {
+                                echo "Image Not available";
                             }
                         ?>
                     </div>
                     <div class="post-content">
+                        <h3>
+                            <span style="color: #8c8a89;">About</span>
+                            <span style="color: #0f295a;"><?php the_title(); ?></span>
+                        </h3>
                         <?php the_content('Read more...'); ?>
                     </div>
                     <p style="text-align: center;">
